@@ -1,5 +1,5 @@
 readonly INTERFACE_SRC_DIR="../mks-ex-proto-interfaces/src/proto/"
-readonly PLUGIN_PATH="/Users/omurayama/Downloads/protoc-gen-grpc-java-1.40.1-osx-x86_64.exe"
+readonly PLUGIN_PATH=`which protoc-gen-grpc-java-1.40.1-osx-x86_64.exe`
 readonly SRC_DIR=./protobuf/src/main/java
 for p in `find $INTERFACE_SRC_DIR -name '*.proto'` 
 do
